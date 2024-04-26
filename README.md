@@ -1,5 +1,9 @@
 # portfolio_5511026
 
+Name:Mengyu Wang
+Matrikelnummer:5511026
+Email:mengyu.wang@mnd.thm.de
+
 A new Flutter project.
 
 ## Getting Started
