@@ -3,11 +3,11 @@
 A new Flutter project.
 
 
-Name: Mengyu Wang
+- Name: Mengyu Wang
 
-Matrikelnummer: 5511026
+- Matrikelnummer: 5511026
 
-Email: mengyu.wang@mnd.thm.de
+- Email: mengyu.wang@mnd.thm.de
 
 
 ## Getting Started
