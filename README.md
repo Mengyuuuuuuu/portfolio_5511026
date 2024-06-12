@@ -1,6 +1,15 @@
 # portfolio_5511026
 
-A new Flutter project.
+My first Flutter projekt.
+
+## About me
+
+- Name: Mengyu Wang
+
+- Matrikelnummer: 5511026
+
+- Email: mengyu.wang@mnd.thm.de
+
 
 ## Getting Started
 
