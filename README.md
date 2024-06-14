@@ -26,13 +26,13 @@ verwendeten Technologien und Links zu Quellcodes, falls vorhanden.
 
 2. Implementierung des Routings
    
-Implementiert eine Navigationsleiste oder ein Menü, das es ermöglicht, zwischen den oben genannten
+- Implementiert eine Navigationsleiste oder ein Menü, das es ermöglicht, zwischen den oben genannten
 Seiten zu wechseln. Verwendet dafür Flutter's eingebaute Navigationsmethoden wie Navigator.push()
 oder die erweiterten Routing-Funktionen von Flutter.
 
 3. Gestaltung
    
-Achtet auf eine ansprechende Gestaltung der Benutzeroberfläche. Verwendet Material Design
+- Achtet auf eine ansprechende Gestaltung der Benutzeroberfläche. Verwendet Material Design
 Komponenten und stellt sicher, dass die App auch auf mobilen Geräten gut aussieht.
 
 ## Technische Hinweise
