@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Projekte extends StatelessWidget {
   const Projekte({super.key});
@@ -9,17 +8,11 @@ class Projekte extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 129, 197, 252),
       appBar: AppBar(
-        toolbarHeight: 200,
+        toolbarHeight: 100,
         title: Text("PROJEKTE"),
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 30,
-        leading: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-        ),
       ),
       body: Row(
         mainAxisAlignment: MainAxisAlignment.center,

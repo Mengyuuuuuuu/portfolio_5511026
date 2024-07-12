@@ -10,7 +10,7 @@ class Lebenslauf extends StatelessWidget {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 122, 246, 234),
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             "About Me",
             style: TextStyle(
               color: Color.fromARGB(255, 245, 131, 17),

@@ -8,7 +8,15 @@ class StartPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        toolbarHeight: 80,
         title: Text('Welcome to my homepage!'),
+        elevation: 30,
+        actions: [
+          MyButton(
+            mytext: 'Contact Me',
+            event: () => Navigator.pushNamed(context, '/contactform_page'),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -25,14 +33,14 @@ class StartPage extends StatelessWidget {
               SizedBox(height: 16),
               Center(
                 child: Text(
-                  'Hi! I am Mengyu Wang',
+                  'Hi!  I am Mengyu Wang',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
               ),
-              SizedBox(height: 8),
+              SizedBox(height: 10),
               Center(
                 child: Text(
-                  'I am a programmer,a Student,I like sports and programming. I don’t limit myself. I cross industries and cultures.',
+                  'I am a budget engineer,a programmer,a Student,a cross-cultural learner.I like sports and programming.',
                   softWrap: true,
                   style: TextStyle(fontSize: 18, color: Colors.grey[700]),
                 ),
@@ -44,8 +52,8 @@ class StartPage extends StatelessWidget {
               ),
               SizedBox(height: 32),
               MyButton(
-                mytext: 'Fähigkeiten',
-                event: () => Navigator.pushNamed(context, '/fähigkeiten'),
+                mytext: 'Faehigkeiten',
+                event: () => Navigator.pushNamed(context, '/faehigkeiten'),
               ),
               SizedBox(height: 32),
               MyButton(

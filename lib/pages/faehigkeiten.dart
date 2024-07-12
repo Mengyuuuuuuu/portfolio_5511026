@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Faehigkeiten extends StatelessWidget {
   const Faehigkeiten({super.key});
@@ -18,12 +17,6 @@ class Faehigkeiten extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.transparent,
         elevation: 30,
-        leading: IconButton(
-          icon: Icon(Icons.menu),
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-        ),
       ),
       body: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -53,7 +46,7 @@ class Faehigkeiten extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 40),
             Row(
               children: [
                 Text(
@@ -72,7 +65,7 @@ class Faehigkeiten extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 40),
             Row(
               children: [
                 Text(
@@ -97,7 +90,7 @@ class Faehigkeiten extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: 50),
+            SizedBox(height: 40),
             Row(
               children: [
                 Text(
