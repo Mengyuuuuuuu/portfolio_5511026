@@ -41,8 +41,12 @@ Verwendet den MaterialApp-Router für das Routing.
 Nutzt ListView, Card, Column und Row Widgets für die Layout-Gestaltung.
 Berücksichtigt Barrierefreiheit und Responsive Design.
 
+4. die erstellte Portfolioseite in Google Firebase hosten.
+
+## Firebase URL:https://portfolio-5511026.web.app/
+
 ## Meine Benutzeroberflächen siehen so aus
-![微信截图_20240614194701](https://github.com/Mengyuuuuuuu/portfolio_5511026/assets/168071730/4aa822d7-7050-4fd9-8c06-f231e2af1939)
+![alt text](image.png)
 
 ![微信截图_20240614194821](https://github.com/Mengyuuuuuuu/portfolio_5511026/assets/168071730/dac734f0-bf6a-40a0-9f7b-7c9dc3545134)
 
@@ -51,6 +55,9 @@ Berücksichtigt Barrierefreiheit und Responsive Design.
 
 
 ![微信截图_20240614194921](https://github.com/Mengyuuuuuuu/portfolio_5511026/assets/168071730/82878f14-2de0-4690-b5b1-06b3ccb40830)
+
+
+![alt text](image-1.png)
 
 
 
