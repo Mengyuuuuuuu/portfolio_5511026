@@ -4,8 +4,14 @@ import 'package:portfolio_5511026/pages/faehigkeiten.dart';
 import 'package:portfolio_5511026/pages/start_page.dart';
 import 'package:portfolio_5511026/pages/lebenslauf.dart';
 import 'package:portfolio_5511026/pages/projekte.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
